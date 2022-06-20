@@ -1,5 +1,4 @@
-import re
-import subprocess
+import re, subprocess
 
 class classIP():
     def ipGrab():
