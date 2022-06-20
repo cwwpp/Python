@@ -1,12 +1,11 @@
 import requests
 
-IP = input('ENTER IP:')
+IP = input('IP: ')
 
 class classIP():
     def getIP(self, x):
         response = requests.get('http://ip-api.com/json/' + x).json()
         #print(response)
-        print('IP: ' + str(x))
         print("Country: " + response['country'])
         print('Country Code: ' + response['countryCode'])
         print("City: " + response['city'])
