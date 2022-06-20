@@ -1,7 +1,6 @@
 import requests
-import pyautogui
 
-IP = pyautogui.password('ENTER IP:')
+IP = input('ENTER IP:')
 
 class classIP():
     def getIP(self, x):
