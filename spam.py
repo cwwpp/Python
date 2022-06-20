@@ -1,7 +1,13 @@
 import pyautogui, time
 
-time.sleep(5)
+text = input('Enter Text: ')
 
-while True:
-	pyautogui.typewrite('Hello World')
-	pyautogui.press('enter')
+class spam():
+	def spamLoop(self, x):
+		time.sleep(5)
+
+		while True:
+			pyautogui.typewrite(x)
+			pyautogui.press('enter')
+startSpam = spam()
+startSpam.spamLoop(text)
