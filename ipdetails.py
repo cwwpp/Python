@@ -1,4 +1,5 @@
 import requests
+import pyautogui
 
 getIP = pyautogui.password('Enter IP: ')
 
