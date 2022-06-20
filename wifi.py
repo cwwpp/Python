@@ -1,5 +1,4 @@
-import subprocess
-import re
+import subprocess, re
 
 class wifi():
     def getWifi():
