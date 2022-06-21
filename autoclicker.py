@@ -7,5 +7,6 @@ class autoclicker():
         time.sleep(5)
         for i in range(int(x)):
             pyautogui.leftClick()
+            pyautogui.leftClick()
 auto = autoclicker()
 auto.autoclick(numCLick)
