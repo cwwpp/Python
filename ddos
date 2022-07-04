@@ -4,7 +4,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 bytes = random._urandom(1024)
 
-ip = input('ENTER IP: )
+ip = input('ENTER IP: ')
 port = int(input('ENTER PORT: '))
 duration = input('ENTER NUMBER OF SECONDS TO SEND PACKETS: ')
 
