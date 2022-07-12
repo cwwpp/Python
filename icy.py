@@ -96,7 +96,7 @@ def sign_up_account():
 					break
 				
 				else:
-					print(fg(9) + '\n[x] Confirm password and password is not the same.')
+					print(fg(9) + '\n[ X ] Confirm password and password is not the same.')
 			break
 
 		else:
@@ -130,7 +130,7 @@ def login_or_sign_up():
 			break
 
 		else:
-			print('Invalid Input.')
+			print(fg(9) + '\n[x] Invalid Input.')
 
 def main_content():
 	sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -181,7 +181,7 @@ def main_content():
 		print(fg(11) + f'{port}')
 
 	print(fg(46) + f'\n[+] Successfully sent {sent} packets to {ip}.')
-	end = input(fg(15) + '')
+	end = input(fg(46) + '')
 icyddos()
 login_or_sign_up()
 main_content()
