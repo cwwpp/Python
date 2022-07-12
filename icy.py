@@ -28,7 +28,8 @@ def icyddos():
 	print(fg(9) + 'B', end='')
 	print(fg(46) + 'y', end=' ')
 	print(fg(9) + 'I', end='')
-	print(fg(46) + 'ceyzx')
+	print(fg(46) + 'ceyzx', end=' ')
+	print(fg(9) + 'v1.0')
 
 def login_account():
 	while True:
