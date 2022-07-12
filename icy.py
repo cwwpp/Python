@@ -21,9 +21,14 @@ def icyddos():
 	print(fg(9) + '|___|', end='')
 	print(fg(46) + '\___  > ____\____ \____ |\____/____  >')
 	print(fg(46) + '         \/\/         \/    \/          \/ ')
-	os.system('prompt root@icyddos: ')
 	print(fg(9) + 'I', end='')
-	print(fg(46) + 'cyddos')
+	print(fg(46) + 'cyddos -', end=' ')
+	print(fg(9) + 'M', end='')
+	print(fg(46) + 'ade', end=' ')
+	print(fg(9) + 'B', end='')
+	print(fg(46) + 'y', end=' ')
+	print(fg(9) + 'I', end='')
+	print(fg(46) + 'ceyzx')
 
 def login_account():
 	while True:
