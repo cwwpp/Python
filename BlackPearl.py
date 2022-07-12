@@ -29,6 +29,7 @@ import time
 # pip install colored
 
 def black_pearl():
+	os.system('cls')
 	print(fg(9) + '______________________________________________________________________________')
 	print(fg(14) + '__________.__                 __     ', end='')
 	print(fg(9) + '__________                     .__   ')
