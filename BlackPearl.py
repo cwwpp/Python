@@ -180,7 +180,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -189,7 +189,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -198,11 +198,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -220,7 +220,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -229,7 +229,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -238,11 +238,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -260,7 +260,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -269,7 +269,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -278,11 +278,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -300,7 +300,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -309,7 +309,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -318,11 +318,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -340,7 +340,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -349,7 +349,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -358,11 +358,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -380,7 +380,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -389,7 +389,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -398,11 +398,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -420,7 +420,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -429,7 +429,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -438,11 +438,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -460,7 +460,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -469,7 +469,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -478,11 +478,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -500,7 +500,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -509,7 +509,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -518,11 +518,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -540,7 +540,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -549,7 +549,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -558,11 +558,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -580,7 +580,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -589,7 +589,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -598,11 +598,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -620,7 +620,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -629,7 +629,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -638,11 +638,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -660,7 +660,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -669,7 +669,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -678,11 +678,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -700,7 +700,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -709,7 +709,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -718,11 +718,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -740,7 +740,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -749,7 +749,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -758,11 +758,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
@@ -780,7 +780,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + f'Logging in as {username}...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -789,7 +789,7 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Grabbing user id...', end=' ')
 
-			time.sleep(2)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
@@ -798,11 +798,11 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Deleting account...', end=' ')
 
-			time.sleep(3)
+			time.sleep(4)
 
 			print(fg(46) + 'Success')
 
-			time.sleep(3)
+			time.sleep(2)
 
 			print(fg(46) + '\n[+] Account Successfully Deleted.\n')
 
