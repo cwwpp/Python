@@ -7,8 +7,8 @@ import sys
 import random
 from colored import fg, bg, attr
 
-username_list = ['Iceyzx']
-password_list = ['iceyzx123']
+username_list = ['']
+password_list = ['']
 
 def icyddos():
 	os.system('cls')
