@@ -1,5 +1,3 @@
-#MADE BY ICEYZX
-
 import os
 import time
 import socket
@@ -12,6 +10,18 @@ password_list = ['']
 
 def icyddos():
 	os.system('cls')
+	print(fg(9) + '.___', end='')
+	print(fg(46) + '                 .___  .___            ')
+	print(fg(9) + '|   |', end='')
+	print(fg(46) + ' ____ ___.__. __| _/__| _/____  ______')
+	print(fg(9) + '|   |', end='')
+	print(fg(46) + '/ ___<   |  |/ __ |/ __ |/  _ \/  ___/')
+	print(fg(9) + '|   ', end='')
+	print(fg(46) + '\  \___\___  / /_/ / /_/ (  <_> )___ \ ')
+	print(fg(9) + '|___|', end='')
+	print(fg(46) + '\___  > ____\____ \____ |\____/____  >')
+	print(fg(46) + '         \/\/         \/    \/          \/ ')
+	os.system('prompt root@icyddos: ')
 	print(fg(9) + 'I', end='')
 	print(fg(46) + 'cyddos')
 
@@ -37,10 +47,6 @@ def login_account():
 				login_password = input(fg(15) + '')
 				if login_password == password_list[0]:
 					print(fg(46) + '\n[+] Login Successful.')
-					break
-
-				elif login_password == '////':
-					login_account()
 					break
 
 				else:
