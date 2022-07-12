@@ -22,11 +22,15 @@ import time
 # \_______ \_____  /\_______ \_______ \
 #         \/     \/         \/       \/
 
-# Fake hack tool to impress your friends (harmless)
+# Fake Hack Tool To Impress Your Friends.
 
-# Install 'colored' module in order to run this script
-# To install, type this command in your terminal:
+# In Order To Run This Script, A Python Module Called 'colored' Needs To Be Installed On Your Device.
+# Run This Command In Your Terminal:
 # pip install colored
+# If it doesn't work try:
+# python -m pip install colored
+# For Python3:
+# pip3 install colored
 
 def black_pearl():
 	os.system('cls')
@@ -162,7 +166,7 @@ def utility():
 
 def user_input():
 	while True:
-		print(fg(14) + 'BlackPearl:', end='')
+		print(fg(14) + ' BlackPearl:', end='')
 		print(fg(9) + '~', end='')
 		print(fg(14) + '$', end=' ')
 		option = input(fg(15) + '')
@@ -946,6 +950,12 @@ def user_input():
 			print(fg(9) + ']', end=' ')
 			print(fg(14) + 'Clear')
 			print(fg(9) + '______________________________________________________________________________\n')
+
+		elif option == '':
+			pass
+
+		else:
+			print(fg(9) + '\n[x] Invalid Input.\n')
 
 black_pearl()
 info()
