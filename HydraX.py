@@ -1,8 +1,3 @@
-from colored import fg, bg, attr
-import os
-import time
-
-from colored import fg, bg, attr
 import os
 import time
 
@@ -26,15 +21,26 @@ import time
 # \_______ \_____  /\_______ \_______ \
 #         \/     \/         \/       \/
 
-# Fake Hack Tool To Impress Your Friends.
+def packages():
+	packages_choice = input('Download\x20packages\x20need?\x20[y/n]:\x20')
 
-# In Order To Run This Script, A Python Module Called 'colored' Needs To Be Installed On Your Device.
-# Run This Command In Your Terminal:
-# pip install colored
-# If it doesn't work try:
-# python -m pip install colored
-# For Python3:
-# pip3 install colored
+	if packages_choice == 'y':
+		version_num = input('Are\x20using\x20python\x203?\x20[y/n]:\x20')
+
+		if version_num == 'y':
+			os.system('pip3 install colored')
+			os.system('cls')
+
+		else:
+			os.system('pip install colored')
+			os.system('cls')
+
+	else:
+		pass
+
+packages()
+
+from colored import fg, bg, attr
 
 def hydrax():
 	os.system('cls')
