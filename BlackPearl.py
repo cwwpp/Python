@@ -1,7 +1,3 @@
-from colored import fg, bg, attr
-import os
-import time
-
 # _________                             .__       .__     __   
 # \_   ___ \  ____ ______ ___.__._______|__| ____ |  |___/  |_ 
 # /    \  \/ /  _ \\____ <   |  |\_  __ \  |/ ___\|  |  \   __\
@@ -22,15 +18,29 @@ import time
 # \_______ \_____  /\_______ \_______ \
 #         \/     \/         \/       \/
 
-# Fake Hack Tool To Impress Your Friends.
+import os
+import time
 
-# In Order To Run This Script, A Python Module Called 'colored' Needs To Be Installed On Your Device.
-# Run This Command In Your Terminal:
-# pip install colored
-# If it doesn't work try:
-# python -m pip install colored
-# For Python3:
-# pip3 install colored
+def packages():
+	packages_choice = input('Download\x20packages\x20need?\x20[y/n]:\x20')
+
+	if packages_choice == 'y':
+		version_num = input('Are\x20using\x20python\x203?\x20[y/n]:\x20')
+
+		if version_num == 'y':
+			os.system('pip3 install colored')
+			os.system('cls')
+
+		else:
+			os.system('py -m pip install colored')
+			os.system('cls')
+
+	else:
+		pass
+
+packages()
+
+from colored import fg, bg, attr
 
 def black_pearl():
 	os.system('cls')
