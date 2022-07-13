@@ -32,7 +32,7 @@ def packages():
 			os.system('cls')
 
 		else:
-			os.system('py -m pip install colored')
+			os.system('pip install colored')
 			os.system('cls')
 
 	else:
