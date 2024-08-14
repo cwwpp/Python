@@ -100,13 +100,13 @@ def game():
 
     for i in range(len(DealerCards)-1):      
         print(f"{DealerCards[i]}", end=", ")
-    print(f"{DealerCards[len(DealerCards)-1]}")
+    print(f"{DealerCards[len(DealerCards)-1]}", end = f" ({DealerTotal})\n")
 
     print("\nYou: ", end = "")
 
     for i in range(len(PlayerCards)-1):
         print(f"{PlayerCards[i]}", end=", ")
-    print(f"{PlayerCards[len(PlayerCards)-1]}")
+    print(f"{PlayerCards[len(PlayerCards)-1]}", end = f" ({PlayerTotal})\n")
 
     if PlayerTotal > 21:
         print("\nDealer: You lost.\n")
@@ -117,6 +117,8 @@ def game():
             print("\nDealer: You lost.\n")
         elif PlayerTotal >= 16 and PlayerTotal <= 21 and DealerTotal > 21:
             print("\nDealer: You won\n")
+        elif PlayerTotal >= 21 and DealerTotal >= 21 and PlayerTotal != DealerTotal:
+            print("\nDealer: No winners this round.\n")
         else:
             print("\nDealer: No winners this round.\n")
 
